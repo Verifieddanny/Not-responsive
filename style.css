@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* :root {
+    --fs-xsmall: 14px;
+    --fs-small: 16px;
+    --fs-base: 20px;
+    --fs-h4: 24px;
+    --fs-h3: 32px;
+    --fs-h2: 48px;
+    --fs-h1: 72px;
+} */
+
+body,html{
+
+    background: #DFCADD;
+    @media (min-width: 768px)
+:root {
+    /* --fs-xsmall: 14px;
+    --fs-small: 16px;
+    --fs-base: 20px;
+    --fs-h4: 24px;
+    --fs-h3: 32px;
+    --fs-h2: 48px;
+    --fs-h1: 72px; */
+}
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.noth{
+   
+width: 1728px;
+height: 1117px;
+
+background: #FFFFFF;
+box-shadow: 4px 13px 25px 20px rgba(94, 50, 129, 0.47);
+
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .noth{
+        width: 37.5vw;
+        height: 25vh;
+    }
+} 
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 79.5px;
+    margin-left: 106px;
+    margin-right: 105px;   
+}
+li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    list-style: none;
+    cursor: pointer;
+    transition: 1s;
+}
+li:hover{
+    transform: scale(1.1);
+    color: #AEA5E4;
+}
+
+.sign{
+    width: 123px;
+    height: 45px;
+    border: 5px solid #D9D9D9;
+    border-radius: 48px 0px;
+    margin-right:10px;
+    box-shadow: 1px 3.5px 6.5px 5px rgba(0, 0, 1, 0.09);
+    transition: 1s;
+}
+.sign:hover{
+    color: #D9D9D9;
+    background: black;
+}
+.log{
+    width: 123px;
+    height: 45px;
+    border: 5px solid black;
+    border-radius: 48px 0px;
+    color: #D9D9D9;
+    background: black;
+    box-shadow: 1px 3.5px 6.5px 5px rgba(0, 0, 1, 0.09);
+    transition: 1s;
+}
+.log:hover{
+    border: 5px solid #D9D9D9;
+    color: black;
+    background: none;
+}
+.dii{
+    display: flex;
+    justify-content: flex-end;
+}
+.kate{
+    font-weight: bold;
+    font-size: 20px;
+}
+.main{
+     position: relative;
+  display: inline-block;
+}
+.subs {
+  display: none;
+  position: absolute;
+  background-color: #DFCADD;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: black;
+  
+
+}
+/*still trying to make the options change*/
+/*.sub{
+    transition: 1s;
+}
+.sub:hover{
+    background: #AEA5E4;
+    color:aqua;
+}*/
+
+.main:hover .subs {
+  display: block;
+  
+}
+.grp{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 79.5px;
+    margin-left: 106px;
+    margin-right: 105px;
+    justify-content: space-between;
+   
+
+}
+.grp1{
+     width: 663.82px;
+    height: 712px;
+    transition: 1s;
+}
+.grp1:hover{
+    transform: rotate(45deg);
+}
+
+.begin{
+   
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.crap{
+    font-weight: bold;
+    font-size: 65px;
+}
+.purple{
+    color: #DFCADD ;
+    font-family: 'Montserrat', sans-serif;
+   
+    cursor: pointer;
+    transition: 1s;
+}
+.purple:hover{
+    transform: scale(1.1);
+    color: aqua;
+    
+}
+.man{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+.download{
+    width: 250px;
+    height: 57.44px;
+    border: 5px solid #D9D9D9;
+    border-radius: 48px 0px;
+    margin-right:10px;
+    box-shadow: 1px 3.5px 6.5px 5px rgba(0, 0, 1, 0.09);
+    margin: 0 auto;
+    font-size: 24px;
+    transition: 1s;
+}
+.download:hover{
+    transform: scale(1.1);
+    color: #D9D9D9;
+    background: black;
+}
+.hiw{
+
+    width: 200px;
+    height: 57.44px;
+    border: 5px solid black;
+    border-radius: 48px 0px;
+    color: #D9D9D9;
+    background: black;
+    box-shadow: 1px 3.5px 6.5px 5px rgba(0, 0, 1, 0.09);
+    font-size: 24px;
+    transition: 1s;
+}
+.hiw:hover{
+    transform: scale(1.1);
+    border: 5px solid #D9D9D9;
+    background: none;
+    color: #000000;
+}
+
+#rev{
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+
+}
+.child{
+    display: flex;
+    justify-content: center;
+    width: 278px;
+    
+}
